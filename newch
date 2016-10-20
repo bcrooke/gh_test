@@ -1,0 +1,8 @@
+#!/bin/bash 
+
+ echo "Change # $1" >> README.md
+ git add README.md
+ git commit -m "Change # $1"
+ git push origin master
+
+
